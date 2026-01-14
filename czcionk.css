@@ -1,0 +1,51 @@
+h2{
+	font-size: 30px;
+	color: red;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: arial;
+  
+}
+h3{
+	color: darkblue;
+}
+h4{
+	background-color: lightblue;
+}
+h5{
+	color: white;
+	font-size: 16px;
+}
+th{
+	color: red;
+	background-color: purple;
+}
+td{
+	background-color: pink;
+	color: white;
+	  text-align: center;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+	background: linear-gradient(90deg,rgba(155, 42, 42, 1) 0%, rgba(255, 0, 132, 1) 30%, rgba(172, 0, 235, 1) 69%, rgba(237, 221, 83, 1) 100%);
+    background-size: 800% 800%;
+    animation: AnimationName 10s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%   { background-position: 79% 0%; }
+    50%  { background-position: 22% 100%; }
+    100% { background-position: 79% 0%; }
+}
+inf{
+	font-weight: bold;
+	color: black;
+	text.size 20px
+}
